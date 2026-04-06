@@ -53,3 +53,23 @@
         font-size: 1.4rem;
     }
 }
+
+@media (max-width: 480px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .service-card {
+        padding: 25px 18px;
+    }
+
+    .service-icon {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+        font-size: 1.3rem;
+    }
+}

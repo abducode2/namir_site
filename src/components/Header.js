@@ -96,15 +96,16 @@ const Header = () => {
               تواصل معنا
             </a>
           </li>
-          <div className="nav-actions">
-            <button className="dark-toggle" onClick={toggleDarkMode}>
-              <i className={darkMode ? "fas fa-sun" : "fas fa-moon"}></i>
-            </button>
-            <div className="mobile-menu" onClick={() => setMenuOpen(!menuOpen)}>
-              <i className="fas fa-gem"></i>
-            </div>
-          </div>
         </ul>
+
+        <div className="nav-actions">
+          <button className="dark-toggle" onClick={toggleDarkMode}>
+            <i className={darkMode ? "fas fa-sun" : "fas fa-moon"}></i>
+          </button>
+          <div className="mobile-menu" onClick={() => setMenuOpen(!menuOpen)}>
+            <i className={menuOpen ? "fas fa-times" : "fas fa-gem"}></i>
+          </div>
+        </div>
       </div>
     </nav>
   );
