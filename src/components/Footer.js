@@ -62,16 +62,22 @@ const Footer = () => {
           <div className="footer-social">
             <h4>تابعنا</h4>
             <div className="social-icons">
-              <a href="#" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/namir_co/"
+                aria-label="Instagram"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#" aria-label="Twitter">
+              <a href="https://twitter.com/namir_co" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/company/namir-co"
+                aria-label="LinkedIn"
+              >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="#" aria-label="Facebook">
+              <a href="https://www.facebook.com/namir_co" aria-label="Facebook">
                 <i className="fab fa-facebook-f"></i>
               </a>
             </div>
